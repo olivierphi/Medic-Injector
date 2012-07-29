@@ -1,0 +1,25 @@
+{
+    "name": "medic/injector",
+    "type": "library",
+    "description": "Medic Injector lightweight PHP 5.3+ Dependency Injection utility",
+    "keywords": ["dependency injection"],
+    "homepage": "https://github.com/DrBenton/Medic-Injector",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivier Philippon",
+            "homepage": "https://github.com/DrBenton"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0": { "Medic": "lib/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
